@@ -1,0 +1,56 @@
+body{
+    background-image: url("../pictures/library2.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.header{
+    position:fixed;
+    top:0;
+    background-color:burlywood;
+    color: black;
+    width: 100%;
+    height:8%;
+    text-align: center;
+    padding: .5rem;
+    font-style: italic;
+    z-index: 1;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    color:white;
+    width:100%;
+    height:10%;
+    text-align: center;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+}
+a:hover{
+    color: rgb(119, 209, 248);
+}
+
+.body{
+    padding-top: 6em;
+    padding-bottom: 8em;
+    height:600px;
+    width:600px;
+background-color: wheat;
+text-align: center;
+
+}
+p{
+    padding: 2em;
+    font-size: 18px;
+}
